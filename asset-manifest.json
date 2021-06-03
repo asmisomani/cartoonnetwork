@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/cartoonnetwork/static/css/main.f7f468b2.chunk.css",
+    "main.js": "/cartoonnetwork/static/js/main.cf3f02ae.chunk.js",
+    "main.js.map": "/cartoonnetwork/static/js/main.cf3f02ae.chunk.js.map",
+    "runtime-main.js": "/cartoonnetwork/static/js/runtime-main.263e16a0.js",
+    "runtime-main.js.map": "/cartoonnetwork/static/js/runtime-main.263e16a0.js.map",
+    "static/js/2.122fe4e4.chunk.js": "/cartoonnetwork/static/js/2.122fe4e4.chunk.js",
+    "static/js/2.122fe4e4.chunk.js.map": "/cartoonnetwork/static/js/2.122fe4e4.chunk.js.map",
+    "index.html": "/cartoonnetwork/index.html",
+    "static/css/main.f7f468b2.chunk.css.map": "/cartoonnetwork/static/css/main.f7f468b2.chunk.css.map",
+    "static/js/2.122fe4e4.chunk.js.LICENSE.txt": "/cartoonnetwork/static/js/2.122fe4e4.chunk.js.LICENSE.txt",
+    "static/media/AWOG.da16f399.jpg": "/cartoonnetwork/static/media/AWOG.da16f399.jpg",
+    "static/media/AppleAndOnion.e061d65a.jpg": "/cartoonnetwork/static/media/AppleAndOnion.e061d65a.jpg",
+    "static/media/CartoonNetwork_AdventureTime_462x386.1e2e61ec.jpg": "/cartoonnetwork/static/media/CartoonNetwork_AdventureTime_462x386.1e2e61ec.jpg",
+    "static/media/CartoonNetwork_Ben10_462x386.5ef5cf19.jpg": "/cartoonnetwork/static/media/CartoonNetwork_Ben10_462x386.5ef5cf19.jpg",
+    "static/media/CartoonNetwork_OKKO_462x386.5a063480.jpg": "/cartoonnetwork/static/media/CartoonNetwork_OKKO_462x386.5a063480.jpg",
+    "static/media/CartoonNetwork_StevenUniverse_462x386.a2a36910.jpg": "/cartoonnetwork/static/media/CartoonNetwork_StevenUniverse_462x386.a2a36910.jpg",
+    "static/media/CartoonNetwork_ThePowerPuffGirls_462x386.26fc038f.jpg": "/cartoonnetwork/static/media/CartoonNetwork_ThePowerPuffGirls_462x386.26fc038f.jpg",
+    "static/media/CartoonNetwork_TheRegularShow_462x386.b7b99d55.jpg": "/cartoonnetwork/static/media/CartoonNetwork_TheRegularShow_462x386.b7b99d55.jpg",
+    "static/media/CartoonNetwork_WeBareBears_462x3861.3b20fb20.jpg": "/cartoonnetwork/static/media/CartoonNetwork_WeBareBears_462x3861.3b20fb20.jpg",
+    "static/media/MaoMao.e26157d5.jpg": "/cartoonnetwork/static/media/MaoMao.e26157d5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.263e16a0.js",
+    "static/js/2.122fe4e4.chunk.js",
+    "static/css/main.f7f468b2.chunk.css",
+    "static/js/main.cf3f02ae.chunk.js"
+  ]
+}
