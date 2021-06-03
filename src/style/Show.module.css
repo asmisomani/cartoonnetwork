@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@100&family=Montserrat:wght@100;300&family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
+.container{
+    width: 67%;
+    margin: auto;
+    color: white;
+    padding: 20px 0px;
+    display: grid;
+}
+.container h1{
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    margin: 10px 25px;
+    font-weight: bold;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    display: inline;
+    position: relative;
+    margin: 3px;
+    
+    overflow:hidden;
+    border: 1px solid black;
+}
+
+.item img{
+    position: relative;
+    height: 100%;
+    mask-image: linear-gradient(to bottom,black,rgba(0, 0, 0, 0.5));
+    transition: all .2s ease-out;
+    width: 100%;
+}
+.item section{
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+}
+.item h3{
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.item p{
+    text-transform: capitalize;
+    font-family: 'Open Sans';
+    font-size: 12px;
+}
+.item:hover img{
+    transform: scale(1.05,1.05);
+    opacity: 0.5;  
+    cursor: pointer;
+}
+ div:nth-child(3) > img{
+    transform: none;
+    opacity: 1 !important;
+    position: relative;
+    height: 100%;
+    mask-image:none;
+    -webkit-mask-image:linear-gradient(to bottom,black,black);
+    cursor:default !important;
+}
+div:nth-child(3) > img{
+    transform: none;
+    opacity: 1;  
+    cursor:default !important;
+    
+}
+.grid div:nth-child(3) > section > p > svg{
+    display: none;
+    visibility: hidden;
+}
+.item:nth-child(n+4){
+    max-width: 306px;
+    max-height: 280px;
+    /* flex-shrink: 1; */
+}
+.item:nth-child(-n+3){
+    max-width: 410px;
+    max-height: 350px;
+    /* flex-grow: 2; */
+}
+.icon{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    bottom: 10px;
+    
+}
+.item:hover .icon{
+    color: #03A6D6;
+}
+
+@media only screen and (max-width:1800px){
+    .item{
+        min-width: 306px !important;
+        min-height: 280px !important;
+    }
+    .container{
+        width: 85%;
+    }
+}
+@media only screen and (max-width:1500px){
+    .item{
+        max-width: 306px !important;
+        max-height: 280px !important;
+    }
+}

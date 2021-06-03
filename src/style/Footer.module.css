@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@100&family=Montserrat:wght@100;300&family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
+
+.footer{
+     background-color: #202020; 
+     color: grey; 
+}
+footer{
+    width: fit-content;
+    margin:auto;
+    text-align: center;
+    padding: 60px 0px;
+    font-family: 'Chathura';
+}
+footer li{
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+
+}
+footer a{
+    text-decoration: none;
+    color: white; 
+}
+footer a:hover{
+    color: #03A6D6;
+}
